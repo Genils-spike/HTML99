@@ -1,0 +1,170 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	background-image: url(../images/bg.jpg);
+	background-size: cover;
+}
+
+nav{     
+	height: 60px;     
+	width: 1020px;  
+	margin-left: auto;     
+	margin-right: auto; 
+	background-color: black;
+	text-align: center;
+	vertical-align: center; 
+}
+
+#menu{
+	visibility: hidden;
+	float: left;
+	position: absolute;
+}
+
+nav ul{	
+	margin-top: 0px;
+	list-style: none;
+	padding: 0px;
+	position: relative;
+}
+
+nav ul li{
+	display: inline-block;
+}
+
+.link{
+	height: 60px;	
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 60px;
+	white-space: nowrap;
+	font-size: 18px;
+	font-weight: lighter;
+	color: white;
+	font-family: Arial, 'Josefin Sans', sans-serif;
+}
+
+.link:hover{
+	color: #cfa205;
+}
+
+header
+{
+	width: 1020px;
+	height: 320px;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+	background-color: black;
+	text-align: center;
+	color: #cfa205;
+
+}
+
+.center_banner{ }
+
+h1{
+	margin: 0px;
+	font-size: 133px;
+	font-weight: lighter;
+	font-family: 'Josefin Sans', sans-serif;
+	line-height: 250px;
+}
+
+h2{
+	font-size: 18px;
+	font-family: 'Bitter', sans-serif;
+}
+
+#social{
+	height: 60px;
+	width: 1020px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #e8e8e8;
+	text-align: center;	
+	vertical-align: center;
+	color : #7a7a7a;
+}
+
+#social ul li:hover{
+	color: #cfa205;
+}
+
+#social ul li{
+	display: inline-block;	
+	line-height: 60px;
+}
+
+#social ul{	
+	margin-top: 0px;
+	list-style: none;
+	padding: 0px;
+}
+
+
+article{
+	width: 1020px;
+	padding: 60px 0px 60px 0px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+}
+
+#intro{
+	width: 900px;
+	height: 90px;
+	margin: 0px auto 60px auto;
+	padding: 0px;
+	font-size: 18px;
+	font-weight: bolder;
+	line-height: 32px;
+	font-family: 'Bitter', sans-serif;
+	color: #7a7a7a;
+	text-align: center;	
+}
+
+#intro p{
+	margin :0px;
+}
+
+hr{
+	width: 900px;
+	margin: 0px auto 60px auto;
+	
+}
+
+#preview{	
+	display: inline-block;
+}
+
+section{
+	width: 260px;
+	height: 480px;
+	margin: 0px 0px 0px 60px;
+	padding: 0px ;	
+	float: left;
+	position: relative;
+}
+
+.img{
+	width: 260px;
+	height: 195px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.text{
+	margin: 0px;
+}
+
+.text h3{
+	font-size: 14px;
+}
+
+.text p{
+	margin: 0px;
+	font-size: 14px;
+	font-family: 'Bitter', sans-serif;
+	color: #7a7a7a;
+}
